@@ -1,0 +1,31 @@
+.chart-main-div{
+    width: 40%;
+    border: 1px solid black;
+    padding: 1em 4em;
+    height: 30vh;
+    overflow-y: scroll;
+}
+.chart-main-div::-webkit-scrollbar {
+    display: none;
+  }
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.imgdiv{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% solid black;
+    object-fit: cover;
+    background-color: brown;
+}
+.imgdiv>img{
+    width: 100%;
+    height: fit-content;
+}
+.iptbox{
+    width: 80%;
+}

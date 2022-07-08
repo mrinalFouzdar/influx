@@ -1,0 +1,32 @@
+.desh-main-div{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.str-btn{
+    background-color: black;
+    color: white;
+}
+
+.createBtn{
+    background-color: green;
+    padding: 10px;
+    font-size: large;
+    display: flex;
+    font-weight: 800;
+    color: wheat;
+    border: none;
+
+}
